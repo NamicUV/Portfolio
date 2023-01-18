@@ -1,0 +1,16 @@
+.about{
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    text-decoration: underline;
+}.about2{
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+#card1{
+    background-color: burlywood;
+    border: solid;
+}
