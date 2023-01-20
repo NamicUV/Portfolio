@@ -11,34 +11,80 @@
 </head>
 <body>
     <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
-        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="#scrollspyHeading1">Home</a>
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading1">About Me</a>
+            <a class="nav-link" href="#scrollspyHeading2">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading2">Projects</a>
+            <a class="nav-link" href="#scrollspyHeading3">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading3">Contact Info</a>
+            <a class="nav-link" href="#scrollspyHeading4">Contact Info</a>
           </li>          <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading4">Resume</a>        
+            <a class="nav-link" href="#">Resume</a>        
         </ul>
       </nav>
       <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-        <div class="card">
-            <div>Get this bread</div>
+        <div class="card" id="card">
+            <div class="card-body" id="card1">
+                <img id="scrollspyHeading1" class="img" src="top.jpg">
+                <div class="text1">Welcome to my Portfolio</div>
+                <a class="navbar-brand" href="https://www.linkedin.com/in/kevin-martinez-79292a1a1">
+                    <img class="linkedin" src="https://assets.stickpng.com/images/58e91afdeb97430e81906504.png" alt="likedin">
+                </a>
+                <a class="navbar-brand" href="https://github.com/NamicUV">
+                    <img class="github" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github">
+                </a>
+            </div> 
+            <div class="card-body" id="card2">
+                <h4 id="scrollspyHeading2" class="about">About Me</h4>
+                <p class="about2">My name is Kevin Martinez and I am a computer science graduate who has a passion for becoming a web developer. I am eager to showcase my skills and learn even more in a professional enviroment. </p>
+            </div>
+                <h4 id="scrollspyHeading3" class="about">My Projects</h4>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Better Cheddar</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Analog/Digital Clocks</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">To be determined</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <h4 id="scrollspyHeading4">Contact Me</h4>
+                <p>...</p>
+                <h4 href="#">Resume</h4>
+                <p>...</p>
         </div>
-        <div class="card" id="card1">
-            <h4 id="scrollspyHeading1" class="about">About Me</h4>
-            <p class="about2">My name is Kevin Martinez and I am a computer science graduate who has a passion for becoming a web developer. I am eager to showcase my skills and learn even more in a professional enviroment. </p>
-        </div>
-            <h4 id="scrollspyHeading2">My Projects</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading3">Contact Me</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading4">Resume</h4>
-            <p>...</p>
       </div>
 </body>
 </html>
