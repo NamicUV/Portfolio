@@ -59,3 +59,27 @@
 #block{
     height: 16rem;
 }
+
+/*contact me*/
+#contact{
+    border: solid;
+    margin: auto;
+}
+#contact-left{
+    float: left;
+    padding: 10px;
+}
+#contact-right{
+    float: right;
+    padding: 10px;
+}
+#input-left{
+    float: left;
+    padding: 10px;
+    width: 35%;
+}
+#input-right{
+    float: right;
+    padding: 10px;
+    width: 35%;
+}
