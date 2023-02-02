@@ -1,3 +1,7 @@
+#nav_id:hover{
+    background-color: rgb(160, 203, 240);
+}
+
 .img{
     text-align: center;
     align-content: center;
@@ -5,7 +9,7 @@
     height: 100%;
 }
 .about{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
@@ -61,25 +65,61 @@
 }
 
 /*contact me*/
-#contact{
+
+.contactus{
+    text-align: center;
     border: solid;
-    margin: auto;
+    margin-bottom:50px;
+    margin-left:400px;
+    margin-right:400px;
+    padding: 20px;
 }
-#contact-left{
-    float: left;
+.contact_border{
+    border: solid 1px;
     padding: 10px;
 }
-#contact-right{
-    float: right;
-    padding: 10px;
+.contact_label{
+    padding: 5px;
 }
-#input-left{
-    float: left;
-    padding: 10px;
-    width: 35%;
+#name{
+    width: 200px;
+    height: 35px;
 }
-#input-right{
-    float: right;
-    padding: 10px;
-    width: 35%;
+#email{
+    width: 200px;
+    height: 35px;
 }
+#subject{
+    width: 200px;
+    height: 35px;
+}
+#message{
+        height: 100px;
+        width: 200px;
+}
+
+.resume{
+    width: 100%;
+    height: 50rem;
+}
+/*Responsive Code*/
+@media only screen and (max-width: 600px) {
+    .text1{
+        height: 50px;
+        width: 300x;
+        font-size: 18px;
+        left: 30%;
+        
+    }
+    .linkedin{
+        width: 30px;
+        height: 30px;
+        bottom: 50px;
+    }
+    .github{
+        width: 30px;
+        height: 30px;
+        left: 52%;
+        top: 35%;
+    }
+  }
