@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="portfolio.css" rel="stylesheet">
+    <script src="Portfolio.js"></script>
 </head>
 <body>
     <nav id="nav" class="navbar fixed-top navbar-light bg-light px-3">
@@ -44,50 +45,98 @@
                 <h4 id="scrollspyHeading3" class="about">My Projects</h4>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                      <div class="card h-100">
+                      <div class="card">
                         <img src="cheddar.png" class="card-img-top" alt="bettercheddar" id="block">
                         <div class="card-body">
-                          <h5 class="card-title">Better Cheddar</h5>
-                          <p class="card-text">This project consists of a simple budget management web site that will help users develop better spending habits in the hope of lowering the percent of people living paycheck to paycheck. Users are able to log their spending and also have the ability to edit and delete any logs as they see fit. Once they insert their monthly income, calculations will be automatically made and shown, allowing users to see how they should divide their income based on their selected plan. Users progress will be presented as a bar graph which shows the user where they stand based on thier selected plan.</p>
+                          <div class="accordion" id="accordion1">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    <h5 class="card-title">Better Cheddar</h5>
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <div class="card-body">
+                                        <p class="card-text">This project consists of a simple budget management web site that will help users develop better spending habits in the hope of lowering the percent of people living paycheck to paycheck. Users are able to log their spending and also have the ability to edit and delete any logs as they see fit. Once they insert their monthly income, calculations will be automatically made and shown, allowing users to see how they should divide their income based on their selected plan. Users progress will be presented as a bar graph which shows the user where they stand based on thier selected plan.</p>
+                                        <p class="card-text"><b>Skills Used:</b> HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, Jquery(AJAX)</p>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>   
                         </div>
-                        <div class="card-body">
-                            <p class="card-text">Skills Used: HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, Jquery(AJAX)</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted">Last updated 3 mins ago</small>
+                        <div class="card-footer" id="sourcebtn">
+                          <small class="text-muted">
+                            <button type="button" class="btn btn-primary">View Page</button> 
+                            <button type="button" class="btn btn-primary">Source Code</button>
+                          </small>
                         </div>
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card h-100">
+                      <div class="card">
                         <img src="clocks.png" class="card-img-top" alt="clocks" id="block">
                         <div class="card-body">
-                          <h5 class="card-title">Analog/Digital Clocks</h5>
-                          <p class="card-text">This project consists of an analog and digital clock that were built to tell the current time which includes the current hour, minute, and second.</p>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Skills Used: HTML, CSS, JavaScript</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted">Last updated 3 mins ago</small>
+                            <div class="accordion" id="accordion2">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                                      <h5 class="card-title">Analog/Digital Clocks</h5>
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+                                  <div class="accordion-body">
+                                      <div class="card-body">
+                                        <p class="card-text">This project consists of an analog and digital clock that were built to tell the current time which includes the current hour, minute, and second.</p>
+                                        <p class="card-text"><b>Skills Used:</b> HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, Jquery(AJAX)</p>  
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>   
+                          </div>
+                        <div class="card-footer" id="sourcebtn">
+                            <small class="text-muted">
+                                <button type="button" class="btn btn-primary">View Page</button> 
+                                <button type="button" class="btn btn-primary">Source Code</button>
+                              </small>
                         </div>
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card h-100">
+                      <div class="card">
                         <img src="..." class="card-img-top" alt="..." id="block">
                         <div class="card-body">
-                          <h5 class="card-title">To be determined</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
+                            <div class="accordion" id="accordion3">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                                      <h5 class="card-title">To Be Determined</h5>
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+                                  <div class="accordion-body">
+                                      <div class="card-body">
+                                        <p class="card-text">Unfinished Project</p>
+                                        <p class="card-text"><b>Skills Used:</b> HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, Jquery(AJAX)</p> 
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>   
+                          </div>
+                          <div class="card-footer" id="sourcebtn">
+                            <small class="text-muted">
+                                <button type="button" class="btn btn-primary">View Page</button> 
+                                <button type="button" class="btn btn-primary">Source Code</button>
+                              </small>
+                          </div>
+                      </div> 
                     </div>
                   </div>
                 <h4 id="scrollspyHeading4" class="about">Contact Me</h4>
-                <form class="contactus" method="post" action="contactus.php">
+                <form class="contactme" method="post" action="contactus.php">
                     <div class="contact_border">
                     <label class="contact_label">Name:</label>
                     <div>
@@ -112,5 +161,6 @@
                 </form>
         </div>
       </div>
+
 </body>
 </html>

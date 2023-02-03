@@ -63,10 +63,12 @@
 #block{
     height: 16rem;
 }
-
+#sourcebtn{
+    text-align: center;
+}
 /*contact me*/
 
-.contactus{
+.contactme{
     text-align: center;
     border: solid;
     margin-bottom:50px;
@@ -114,12 +116,17 @@
     .linkedin{
         width: 30px;
         height: 30px;
-        bottom: 50px;
+        top: 35%;
     }
     .github{
         width: 30px;
         height: 30px;
         left: 52%;
         top: 35%;
+    }
+    .contactme{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
   }
