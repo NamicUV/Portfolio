@@ -107,26 +107,103 @@
 /*Responsive Code*/
 @media only screen and (max-width: 600px) {
     .text1{
-        height: 50px;
-        width: 300x;
-        font-size: 18px;
-        left: 30%;
-        
+        width: 70%;
+        font-size: 25px;
+        left: 15%;
     }
     .linkedin{
-        width: 30px;
-        height: 30px;
-        top: 35%;
+        width: 40px;
+        height: 40px;
+        top: 33%;
     }
     .github{
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         left: 52%;
-        top: 35%;
+        top: 33%;
     }
     .contactme{
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 800px) and (min-width: 601px) {
+    .text1{
+        font-size: 35px;
+        left: 15%;
+        width: 70%;
+    }
+    .linkedin{
+        width: 50px;
+        height: 50px;
+        top: 33%;
+    }
+    .github{
+        width: 50px;
+        height: 50px;
+        left: 52%;
+        top: 33%;
+    }
+    .contactme{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #block{
+        height: 20rem;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) and (min-width: 801px) {
+    .text1{
+        right: 15%;
+        width: 70%;
+    }
+    .linkedin{
+    width: 50px;
+    height: 50px;
+    top: 33%;
+    }
+    .github{
+        width: 50px;
+        height: 50px;
+        left: 52%;
+        top: 33%;
+    }
+    .contactme{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #block{
+        height: 15rem;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) and (min-width: 1001px) {
+    .text1{
+        right: 15%;
+        width: 70%;
+    }
+    .linkedin{
+    width: 50px;
+    height: 50px;
+    top: 33%;
+    }
+    .github{
+        width: 50px;
+        height: 50px;
+        left: 52%;
+        top: 33%;
+    }
+    .contactme{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
   }
